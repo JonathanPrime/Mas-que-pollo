@@ -143,6 +143,10 @@ p {
   font-weight: bolder;
 }
 
+a:hover {
+  color: var(--palet-2) !important;
+}
+
 .logo-desing {
   width: 7%;
   height: auto;
@@ -244,15 +248,16 @@ p {
 
 .service-box .box .title-services {
   padding: 1rem 0;
-  font-size: 5rem;
+  font-size: 4rem;
+  text-transform: uppercase;
   color:  var(--black);
-  font-family: 'BebasNeueProBold';
+  font-family: 'PoppinsBlack';
 }
 
 .service-box .box .sub-services {
   padding: 1rem 0;
   margin-top: -5rem;
-  font-size: 6rem;
+  font-size: 5rem;
   color:  var(--palet-1);
   font-family: 'PierceJamesonScript';
 }
@@ -532,6 +537,10 @@ p {
   border-radius: .5rem 0 .5rem 0;
 }
 
+#combos {
+  margin-top: -5rem;
+}
+
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -614,9 +623,9 @@ p {
 }
 
 .heading .reviews-title {
-  font-family: 'BebasNeueProBold';
+  font-family: 'InsaniBurger';
   font-size: 6rem;
-  color:  var(--black);
+  color:  var(--palet-3);
 }
 
 .reviews .box-container {
@@ -721,7 +730,7 @@ p {
 
 .heading .blog-title {
   text-align: center;
-  font-family: 'BebasNeueProBold';
+  font-family: 'PoppinsBlack';
   font-size: 6rem;
   color:  var(--black);
 }
@@ -825,7 +834,7 @@ p {
 }
 
 .footer {
-  background:linear-gradient(rgba(1, 1, 1, 0.69), rgba(0, 0, 0, 0.69)), url(../images/background-footer.jpg);
+  background: #0e0e0e url(../images/vectores/patron-2.svg);
   background-size: cover;
   background-position: center;
   padding: 3rem 9% !important;
@@ -1193,7 +1202,7 @@ input.whats-input[type=text]:focus {
 }
 
 .table td, .table th, .item-count, .total-cart, .total {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .item-count {
@@ -1269,7 +1278,9 @@ input.whats-input[type=text]:focus {
   }
   .about .content .img-group {
     flex-direction: column-reverse;
+    justify-content: center;
   }
+
   .img-group-1 {
     margin-top: 23px;
     flex: 0 0 auto !important;
@@ -1320,7 +1331,7 @@ input.whats-input[type=text]:focus {
     align-content: center;
   }
   .home .content p {
-    font-size: 2rem;
+    font-size: 16px;
   }
   .logo-desing {
     width: 12%;

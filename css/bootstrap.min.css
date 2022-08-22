@@ -164,7 +164,7 @@ sup {
 }
 
 a {
-    color: #007bff;
+    color: #FF6521;
     text-decoration: none;
     background-color: transparent
 }
@@ -5245,7 +5245,7 @@ a.badge-warning.focus, a.badge-warning:focus {
 
 .badge-danger {
     color: #fff;
-    background-color: #dc3545
+    background-color: #EE3425
 }
 
 a.badge-danger:focus, a.badge-danger:hover {
