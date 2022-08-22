@@ -62,14 +62,15 @@ section {
   text-align: center;
   font-family: 'PierceJamesonScript';
   font-size: 12rem;
+  margin-top: -5rem;
   color:  var(--white);
 }
 
 .heading .sub-menu {
   text-align: center;
   font-family: 'InsaniBurger';
-  font-size: 10rem;
-  margin-top: -7rem;
+  font-size: 7rem;
+  margin-top: -5rem;
   color:  var(--palet-2);
 }
 
@@ -133,7 +134,7 @@ p {
 }
 
 .header.active #menu-btn {
-  color: var(--palet-2);
+  color: var(--palet-1);
 }
 
 .header .logo {
@@ -236,7 +237,7 @@ p {
   line-height: 7rem;
   font-size: 2.5rem;
   color: var(--white);
-  background: var(--palet-3);
+  background: var(--palet-1);
   margin-bottom: 1rem;
   border-radius: 50%;
 }
@@ -292,6 +293,10 @@ p {
   font-size: 1.7rem;
   border-radius: 1rem;
   padding: 1rem 3rem;
+}
+
+.owl-stage-outer {
+  margin-top: -5rem;
 }
 
 .owl-filter .btn-menu:hover {
@@ -380,9 +385,9 @@ p {
 .fondo {
   background: url(../images/vectores/patron-1.svg) var(--palet-3);
   background-size: contain;
+  padding: 5rem 2% !important;
   background-repeat: repeat;
   background-position: center;
-  padding: 2rem 9% !important;
 }
 
 .services__container{
@@ -404,13 +409,43 @@ p {
   margin: 1rem;
 }
 
-.degrade{
+/* .degrade{
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(226,24,41,1) 0%, rgba(244,165,8,1) 100%) !important;
+} */
+
+.text-price {
+  background-color: var(--palet-1);
+  color: var(--white) !important;
+  font-weight: bolder;
+  border-radius: 2rem;
 }
 
-.menu__name, .menu__preci, .title_hour{
-  font-weight: var(--font-semi-bold);
-  color: var(--title-color);
+.btn-primary {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  color: #fff !important;
+  background-color: var(--black) !important;
+  border: 0px !important;
+}
+
+.menu__preci {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  margin: 1.5rem !important;
+  background-color: var(--palet-1);
+  color: var(--white) !important;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.menu__detail {
+  font-size: 2rem !important;
+  color:  var(--black) !important;
+  margin: 1rem !important;
 }
 
 .services__content{
@@ -458,7 +493,7 @@ p {
   opacity: 1 !important;
   flex-direction: column;
   background-color: var(--white);
-  border-radius: .5rem;
+  border-radius: 1rem;
   -webkit-box-shadow: 0px 16px 34px -3px rgba(48,48,48,0.58);
   -moz-box-shadow: 0px 16px 34px -3px rgba(48,48,48,0.58);
   box-shadow: 0px 16px 34px -3px rgba(48,48,48,0.58);
@@ -542,7 +577,7 @@ p {
 }
 
 .about .content p {
-  font-size: 1.5rem;
+  font-size: 16px;
   line-height: 2;
   color: var(--black);
   padding: 2rem 0;
@@ -1299,6 +1334,9 @@ input.whats-input[type=text]:focus {
   html {
     font-size: 50%;
   }
+  .own-script {
+    font-size: 5rem;
+  }
   .heading .reviews-title {
     font-size: 4rem;
   }
@@ -1306,13 +1344,14 @@ input.whats-input[type=text]:focus {
     font-size: 4rem;
   }
   .service-box .box .sub-services {
-    font-size: 9rem;
+    font-size: 5rem;
   }
   .heading .blog-title {
     font-size: 5rem;
   }
   .about .content .title {
     font-size: 3.7rem;
+    margin-top: -2rem;
   }
   .home .content p {
     font-size: 1.8rem;
@@ -1324,7 +1363,8 @@ input.whats-input[type=text]:focus {
     font-size: 9rem;
   }
   .heading .sub-menu {
-    font-size: 7rem;
+    font-size: 6rem;
+    line-height: 2;
   }
 }
 /*# sourceMappingURL=style.css.map */

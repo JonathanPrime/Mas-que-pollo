@@ -256,54 +256,6 @@ function agregaTextoABase(base, textoAlInicio, textoAlFinal) {
 displayCart();
 
 
-$('#customers-testimonials-bro').owlCarousel({
-  interval: false,
-  nav: true,
-  navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
-  items: 3,
-  margin: 0,
-  autoplay: false,
-  dots: false,
-  responsive: {
-    0: {
-      items: 1
-    },
-    768: {
-      items: 2
-    },
-    1170: {
-      items: 3
-    },
-    3840: {
-      items: 3
-    }
-  }
-});
-
-$('#customers-testimonials-pai').owlCarousel({
-  interval: false,
-  nav: true,
-  navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
-  items: 3,
-  margin: 0,
-  autoplay: false,
-  dots: false,
-  responsive: {
-    0: {
-      items: 1
-    },
-    768: {
-      items: 2
-    },
-    1170: {
-      items: 3
-    },
-    3840: {
-      items: 3
-    }
-  }
-});
-
 $('#customers-testimonials-chi').owlCarousel({
   interval: false,
   nav: true,
@@ -328,14 +280,14 @@ $('#customers-testimonials-chi').owlCarousel({
   }
 });
 
-$('#customers-testimonials-pll').owlCarousel({
+$('#customers-testimonials-alm').owlCarousel({
+  interval: false,
   nav: true,
   navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
   items: 3,
   margin: 0,
   autoplay: false,
   dots: false,
-
   responsive: {
     0: {
       items: 1
@@ -402,57 +354,6 @@ $('#customers-testimonials-beb').owlCarousel({
   }
 });
 
-$('#customers-testimonials-fast').owlCarousel({
-  /* rtl: true, */
-  nav: true,
-  navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
-  items: 3,
-  margin: 0,
-  autoplay: false,
-  dots: false,
-
-  responsive: {
-    0: {
-      items: 1
-    },
-    768: {
-      items: 2
-    },
-    1170: {
-      items: 3
-    },
-    3840: {
-      items: 3
-    }
-  }
-});
-
-
-$('#customers-testimonials-mini').owlCarousel({
-  /* rtl: true, */
-  nav: true,
-  navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
-  items: 3,
-  margin: 0,
-  autoplay: false,
-  dots: false,
-
-  responsive: {
-    0: {
-      items: 1
-    },
-    768: {
-      items: 2
-    },
-    1170: {
-      items: 3
-    },
-    3840: {
-      items: 3
-    }
-  }
-});
-
 $('#customers-testimonials').owlCarousel({
   /* rtl: true, */
   nav: true,
@@ -477,6 +378,32 @@ $('#customers-testimonials').owlCarousel({
     }
   }
 });
+
+
+$('#customers-testimonials-pai').owlCarousel({
+  interval: false,
+  nav: true,
+  navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
+  items: 3,
+  margin: 0,
+  autoplay: false,
+  dots: false,
+  responsive: {
+    0: {
+      items: 1
+    },
+    768: {
+      items: 2
+    },
+    1170: {
+      items: 3
+    },
+    3840: {
+      items: 3
+    }
+  }
+});
+
 
 var totalItems = $('.item').length;
 if (totalItems > 3) {
