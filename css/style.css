@@ -1,34 +1,35 @@
 @font-face {
-  font-family: 'BebasNeueProBold'; /*a name to be used later*/
-  src: url('../fonts/Bebas-Neue-Pro-Bold.otf'); /*URL to font*/
+  font-family: 'InsaniBurger'; /*a name to be used later*/
+  src: url('../fonts/Insaniburguer-regular.ttf'); /*URL to font*/
 }
 
 @font-face {
-  font-family: 'BebasNeueProBoldItalic'; /*a name to be used later*/
-  src: url('../fonts/Bebas-Neue-Pro-Bold-Italic.otf'); /*URL to font*/
+  font-family: 'PoppinsRegular'; /*a name to be used later*/
+  src: url('../fonts/Poppins-Regular.ttf'); /*URL to font*/
 }
-
 
 @font-face {
-  font-family: 'AmerikaSignature'; /*a name to be used later*/
-  src: url('../fonts/AmerikaSignatureDemo-Regular.ttf'); /*URL to font*/
+  font-family: 'PierceJamesonScript'; /*a name to be used later*/
+  src: url('../fonts/Pierce-Jameson-Script.otf'); /*URL to font*/
 }
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+@font-face {
+  font-family: 'PoppinsBlack'; /*a name to be used later*/
+  src: url('../fonts/Poppins-Black.ttf'); /*URL to font*/
+}
 
 
 :root{
-  --black: #241F21;
+  --black: #2B2B2B;
   --white:#fff;
   --gray: #aaa;
-  --palet-1: #EE2028;
-  --palet-2: #FF472E;
-  --palet-3: #FFF001;
-  --palet-4: #15BA83;
+  --palet-1: #EE3425;
+  --palet-2: #FFCE00;
+  --palet-3: #FF6521;
 }
 
 * {
-  font-family: 'BebasNeueProBold';
+  font-family: 'PoppinsRegular';
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -59,21 +60,21 @@ section {
 
 .heading .title-menu {
   text-align: center;
-  font-family: 'AmerikaSignature';
+  font-family: 'PierceJamesonScript';
   font-size: 12rem;
-  color:  var(--);
+  color:  var(--white);
 }
 
 .heading .sub-menu {
   text-align: center;
-  font-family: 'BebasNeueProBold';
+  font-family: 'InsaniBurger';
   font-size: 10rem;
   margin-top: -7rem;
-  color:  var(--white);
+  color:  var(--palet-2);
 }
 
 p {
-  font-family: 'poppins'; 
+  font-family: 'PoppinsRegular'; 
   font-style: normal;
 }
 .m-cart {
@@ -142,7 +143,7 @@ p {
 }
 
 .logo-desing {
-  width: 5%;
+  width: 7%;
   height: auto;
 }
 
@@ -151,8 +152,10 @@ p {
 }
 
 .header .nav a {
-  font-size: 2.2rem;
+  font-size: 14px;
+  font-family: 'PoppinsBlack';
   margin-left: 2rem;
+  text-transform: uppercase;
   color: var(--white);
 }
 
@@ -178,7 +181,7 @@ p {
 }
 
 .home {
-  background: url(../images/background-header.jpg) no-repeat;
+  background: url(../images/background-header.png) no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: 5rem;
@@ -207,11 +210,11 @@ p {
 }
 
 .home .content p {
-  font-size: 8.5rem;
+  font-size: 5rem;
   line-height: 2;
   color: var(--white);
   padding: 2rem 0;
-  font-family: 'AmerikaSignature' !important;
+  font-family: 'PierceJamesonScript' !important;
 }
 
 .service-box {
@@ -233,7 +236,7 @@ p {
   line-height: 7rem;
   font-size: 2.5rem;
   color: var(--white);
-  background: var(--palet-2);
+  background: var(--palet-3);
   margin-bottom: 1rem;
   border-radius: 50%;
 }
@@ -247,10 +250,10 @@ p {
 
 .service-box .box .sub-services {
   padding: 1rem 0;
-  margin-top: -8rem;
-  font-size: 9rem;
+  margin-top: -5rem;
+  font-size: 6rem;
   color:  var(--palet-1);
-  font-family: 'AmerikaSignature';
+  font-family: 'PierceJamesonScript';
 }
 
 .service-box .box p {
@@ -262,48 +265,10 @@ p {
 /*========== MENU ==========*/
 /*========== MENU ==========*/
 
-.menu {
-  background: url(../images/background-menu.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 2rem 9% !important;
-}
-.menu__container{
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-}
 
-.buttons a {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.menu__content{
-  /* position: relative; */
-  display: flex;
-  opacity: 1 !important;
-  flex-direction: column;
-  background-color: var(--black);
-  border-radius: 2rem;
-  -webkit-box-shadow: 0px 16px 34px -3px rgba(48,48,48,0.58);
-  -moz-box-shadow: 0px 16px 34px -3px rgba(48,48,48,0.58);
-  box-shadow: 0px 16px 34px -3px rgba(48,48,48,0.58);
-  /* padding: .75rem; */
-}
-
-.menu__img{
-  width: 100% !important;
-  height: 220px !important;
-  object-fit: contain;
-  align-self: center;
-  margin-bottom: 1rem;
-}
-
-.menu__name {
-  font-size: 3.2rem !important;
-  text-transform: uppercase !important;
-  color:  var(--white) !important;
-  margin-top: 1rem !important;
+.filter {
+  text-align:center;
+  padding-bottom: 2rem;
 }
 
 .details {
@@ -316,40 +281,6 @@ p {
   color: var(--black) !important;
   font-weight: bolder;
   border-radius: 2rem;
-}
-
-.menu__preci {
-  font-size: 2rem;
-  margin: 1rem !important;
-  background-color: var(--palet-3);
-  color: var(--black) !important;
-  border-radius: 2rem;
-  text-align: center;
-}
-
-.menu__detail {
-  font-size: 2rem !important;
-  color:  var(--white) !important;
-  margin: 1rem !important;
-}
-
-.card-body {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-
-.menu__button{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  display: flex;
-  padding: .625rem .813rem;
-  border-radius: .5rem 0 .5rem 0;
 }
 
 .owl-filter .btn-menu {
@@ -368,19 +299,11 @@ p {
   background:  var(--black);
 }
 
-.filter {
-  text-align:center;
-  padding-bottom: 2rem;
-}
-
 #customers-testimonials .item, 
-#customers-testimonials-mini .item, 
+#customers-testimonials-alm .item, 
 #customers-testimonials-acom .item, 
-#customers-testimonials-fast .item, 
 #customers-testimonials-beb .item,
-#customers-testimonials-pll .item, 
 #customers-testimonials-pai .item,
-#customers-testimonials-bro .item,
 #customers-testimonials-chi .item {
   text-align: center;
   padding: 1.5rem;
@@ -394,13 +317,10 @@ p {
   transition: all 0.3s ease-in-out;
 }
 #customers-testimonials .owl-item.active.center .item,
-#customers-testimonials-mini .owl-item.active.center .item,
+#customers-testimonials-alm .owl-item.active.center .item,
 #customers-testimonials-acom .owl-item.active.center .item,
-#customers-testimonials-fast .owl-item.active.center .item,
 #customers-testimonials-beb .owl-item.active.center .item,
-#customers-testimonials-pll .owl-item.active.center .item,
 #customers-testimonials-pai .owl-item.active.center .item,
-#customers-testimonials-bro .owl-item.active.center .item,
 #customers-testimonials-chi .owl-item.active.center .item {
   opacity: 1;
   -webkit-transform: scale3d(1.0, 1.0, 1);
@@ -426,11 +346,11 @@ p {
   opacity: 0.25;
 }
 .owl-carousel .owl-prev {
-  left: -20px;
+  left: 5px;
   
 }
 .owl-carousel .owl-next {
-  right: -20px;
+  right: 5px;
 }
 .owl-theme .owl-nav [class*=owl-] {
   color: var(--white);
@@ -443,6 +363,138 @@ p {
 }
 .owl-carousel .next-carousel:hover {
   background-position: -24px -53px;
+}
+
+
+
+/*========== SERVICES ==========*/
+
+.services {
+  align-items: center;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+
+.fondo {
+  background: url(../images/vectores/patron-1.svg) var(--palet-3);
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: center;
+  padding: 2rem 9% !important;
+}
+
+.services__container{
+  row-gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.combos, .combos-separe{
+  padding-bottom: 1rem;
+  align-content: center;
+  justify-content: center;
+}
+
+.combos-separe {
+  padding-bottom: 5rem;
+}
+
+.tarjet{
+  margin: 1rem;
+}
+
+.degrade{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(226,24,41,1) 0%, rgba(244,165,8,1) 100%) !important;
+}
+
+.menu__name, .menu__preci, .title_hour{
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+
+.services__content{
+  text-align: center;
+}
+
+.services__img{
+  width: 64px;
+  height: 64px;
+  fill: var(--first-color);
+  margin-bottom: var(--mb-2);
+}
+
+.services__title{
+  font-size: var(--h3-font-size);
+  color: var(--title-color);
+  margin-bottom: var(--mb-1);
+}
+
+.services__description{
+  padding: 0 1.5rem;
+}
+
+
+
+/*========== MENU ==========*/
+
+.menu__container{
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+
+.buttons a {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.heading {
+  text-align: center;
+}
+
+.menu__content{
+  /* position: relative; */
+  display: flex;
+  opacity: 1 !important;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: .5rem;
+  -webkit-box-shadow: 0px 16px 34px -3px rgba(48,48,48,0.58);
+  -moz-box-shadow: 0px 16px 34px -3px rgba(48,48,48,0.58);
+  box-shadow: 0px 16px 34px -3px rgba(48,48,48,0.58);
+  /* padding: .75rem; */
+}
+
+.menu__img{
+  width: 100% !important;
+  height: 220px !important;
+  object-fit: contain;
+  align-self: center;
+  margin-bottom: var(--mb-2);
+}
+
+.degrade .card-body .menu__name, .degrade .card-body .menu__preci, .degrade .card-body .menu__detail, .subtitle_hour{
+  font-weight: var(--font-semi-bold);
+  color: var(--title-not-change);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.menu__button{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  padding: .625rem .813rem;
+  border-radius: .5rem 0 .5rem 0;
 }
 
 .about {
@@ -458,7 +510,7 @@ p {
 }
 
 .own-script {
-  font-family: 'AmerikaSignature';
+  font-family: 'PierceJamesonScript';
   font-size: 10rem;
   color:  var(--palet-1);
 }
@@ -485,7 +537,8 @@ p {
   font-size: 7.5rem;
   margin-top: -5rem;
   text-transform: uppercase;
-  color:  var(--sunset-3);
+  font-family: 'InsaniBurger';
+  color:  var(--black);
 }
 
 .about .content p {
@@ -1232,10 +1285,10 @@ input.whats-input[type=text]:focus {
     align-content: center;
   }
   .home .content p {
-    font-size: 5rem;
+    font-size: 2rem;
   }
   .logo-desing {
-    width: 10%;
+    width: 12%;
   }
   .heading .sub-menu {
     margin-top: -5rem;
@@ -1262,10 +1315,10 @@ input.whats-input[type=text]:focus {
     font-size: 3.7rem;
   }
   .home .content p {
-    font-size: 3.5rem;
+    font-size: 1.8rem;
   }
   .logo-desing {
-    width: 14%;
+    width: 16%;
   }
   .heading .title-menu {
     font-size: 9rem;

@@ -21,10 +21,10 @@ window.onscroll = () => {
 
   if (window.scrollY > 0) {
     document.querySelector('.header').classList.add('active');
-    document.getElementById('img-logo').src = '../images/logo/logo-change.svg';
+    document.getElementById('img-logo').src = '../images/logo/logo-dark.svg';
   } else {
     document.querySelector('.header').classList.remove('active');
-    document.getElementById('img-logo').src = '../images/logo/logo-head.svg';
+    document.getElementById('img-logo').src = '../images/logo/logo-semi-white.svg';
   }
 }
 
@@ -584,7 +584,7 @@ popupWhatsApp = () => {
     let msg = document.getElementById('whats-in').value;
     let relmsg = msg.replace(/ /g, "%20");
     //just change the numbers "1515551234567" for your number. Don't use +001-(555)1234567     
-    window.open('https://wa.me/573144226785?text=' + relmsg, '_blank');
+    window.open('https://wa.me/573238160183?text=' + relmsg, '_blank');
 
   });
   /* Open pop-up in 15 seconds */
@@ -634,7 +634,7 @@ modalCloseX.addEventListener("click", () => {
       let relmsg = msg.replace(/ /g,"%20");
       var total_order = document.getElementById("total_order").innerHTML.toString();
   
-     window.open('https://wa.me/573144226785?text='+ relmsg + "%0a"
+     window.open('https://wa.me/573238160183?text='+ relmsg + "%0a"
     + "---------------------------------" + "%0a"
     + "       DATOS DEL PEDIDO          " + "%0a"
     + "---------------------------------" + "%0a"
