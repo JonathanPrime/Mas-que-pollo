@@ -186,26 +186,27 @@ a:hover {
 }
 
 .home {
-  background: url(../images/background-header.png) no-repeat;
+  background: url(../images/background-header.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: 5rem;
   display: flex;
+  height: 100vh;
   align-content: center;
   justify-content: center;
   align-items: center;
 }
 
 .home .content {
-  max-width: 80%;
+  max-width: 100%;
   text-align: center;
   margin: 0 auto;
 }
 
 .home .content img {
-  width: 100%;
-  margin-top: 20rem;
-  margin-bottom: 15rem;
+  width: 80%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .home .content h3 {
@@ -1229,6 +1230,13 @@ input.whats-input[type=text]:focus {
 }
 
 @media (max-width: 768px) {
+  .home {
+    background-position: left;
+  }
+  .home .content img {
+    width: 100%;
+  }
+  
   .blogs .box-container .box .image {
     height: 32rem;
   }
@@ -1365,7 +1373,7 @@ input.whats-input[type=text]:focus {
     margin-top: -2rem;
   }
   .home .content p {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
   }
   .logo-desing {
     width: 16%;
